@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A19B2D115F820B20047FE59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A19B2D015F820B20047FE59 /* UIKit.framework */; };
+		3A19B2D315F820B20047FE59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A19B2D215F820B20047FE59 /* Foundation.framework */; };
+		3A19B2D515F820B20047FE59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A19B2D415F820B20047FE59 /* CoreGraphics.framework */; };
+		3A19B2DB15F820B20047FE59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A19B2D915F820B20047FE59 /* InfoPlist.strings */; };
+		3A19B2DD15F820B20047FE59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A19B2DC15F820B20047FE59 /* main.m */; };
+		3A19B2E115F820B20047FE59 /* CLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A19B2E015F820B20047FE59 /* CLAppDelegate.m */; };
+		3A19B2E415F820B20047FE59 /* CLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A19B2E315F820B20047FE59 /* CLViewController.m */; };
+		3A19B2E715F820B20047FE59 /* CLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A19B2E515F820B20047FE59 /* CLViewController.xib */; };
+		3A19B2F815F825790047FE59 /* CLViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A19B2F715F825790047FE59 /* CLViewCell.m */; };
+		3A19B2FA15F8258D0047FE59 /* CLViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A19B2F915F8258D0047FE59 /* CLViewCell.xib */; };
+		3A19B2FD15F826940047FE59 /* img1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A19B2FB15F826940047FE59 /* img1.jpeg */; };
+		3A19B2FE15F826940047FE59 /* img3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A19B2FC15F826940047FE59 /* img3.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A19B2CC15F820B20047FE59 /* AlertPreference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertPreference.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A19B2D015F820B20047FE59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A19B2D215F820B20047FE59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A19B2D415F820B20047FE59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A19B2D815F820B20047FE59 /* AlertPreference-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlertPreference-Info.plist"; sourceTree = "<group>"; };
+		3A19B2DA15F820B20047FE59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A19B2DC15F820B20047FE59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A19B2DE15F820B20047FE59 /* AlertPreference-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlertPreference-Prefix.pch"; sourceTree = "<group>"; };
+		3A19B2DF15F820B20047FE59 /* CLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLAppDelegate.h; sourceTree = "<group>"; };
+		3A19B2E015F820B20047FE59 /* CLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLAppDelegate.m; sourceTree = "<group>"; };
+		3A19B2E215F820B20047FE59 /* CLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLViewController.h; sourceTree = "<group>"; };
+		3A19B2E315F820B20047FE59 /* CLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLViewController.m; sourceTree = "<group>"; };
+		3A19B2E615F820B20047FE59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CLViewController.xib; sourceTree = "<group>"; };
+		3A19B2F615F825790047FE59 /* CLViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLViewCell.h; path = ../CLViewCell.h; sourceTree = "<group>"; };
+		3A19B2F715F825790047FE59 /* CLViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLViewCell.m; path = ../CLViewCell.m; sourceTree = "<group>"; };
+		3A19B2F915F8258D0047FE59 /* CLViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CLViewCell.xib; path = ../CLViewCell.xib; sourceTree = "<group>"; };
+		3A19B2FB15F826940047FE59 /* img1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img1.jpeg; path = ../../../Docs/sampleImg/img1.jpeg; sourceTree = "<group>"; };
+		3A19B2FC15F826940047FE59 /* img3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img3.jpeg; path = ../../../Docs/sampleImg/img3.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A19B2C915F820B20047FE59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A19B2D115F820B20047FE59 /* UIKit.framework in Frameworks */,
+				3A19B2D315F820B20047FE59 /* Foundation.framework in Frameworks */,
+				3A19B2D515F820B20047FE59 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A19B2C115F820B20047FE59 = {
+			isa = PBXGroup;
+			children = (
+				3A19B2D615F820B20047FE59 /* AlertPreference */,
+				3A19B2CF15F820B20047FE59 /* Frameworks */,
+				3A19B2CD15F820B20047FE59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A19B2CD15F820B20047FE59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A19B2CC15F820B20047FE59 /* AlertPreference.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A19B2CF15F820B20047FE59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A19B2D015F820B20047FE59 /* UIKit.framework */,
+				3A19B2D215F820B20047FE59 /* Foundation.framework */,
+				3A19B2D415F820B20047FE59 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A19B2D615F820B20047FE59 /* AlertPreference */ = {
+			isa = PBXGroup;
+			children = (
+				3A19B2DF15F820B20047FE59 /* CLAppDelegate.h */,
+				3A19B2E015F820B20047FE59 /* CLAppDelegate.m */,
+				3A19B2E215F820B20047FE59 /* CLViewController.h */,
+				3A19B2E315F820B20047FE59 /* CLViewController.m */,
+				3A19B2E515F820B20047FE59 /* CLViewController.xib */,
+				3A19B2F615F825790047FE59 /* CLViewCell.h */,
+				3A19B2F715F825790047FE59 /* CLViewCell.m */,
+				3A19B2F915F8258D0047FE59 /* CLViewCell.xib */,
+				3A19B2D715F820B20047FE59 /* Supporting Files */,
+			);
+			path = AlertPreference;
+			sourceTree = "<group>";
+		};
+		3A19B2D715F820B20047FE59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A19B2FB15F826940047FE59 /* img1.jpeg */,
+				3A19B2FC15F826940047FE59 /* img3.jpeg */,
+				3A19B2D815F820B20047FE59 /* AlertPreference-Info.plist */,
+				3A19B2D915F820B20047FE59 /* InfoPlist.strings */,
+				3A19B2DC15F820B20047FE59 /* main.m */,
+				3A19B2DE15F820B20047FE59 /* AlertPreference-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A19B2CB15F820B20047FE59 /* AlertPreference */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A19B2EA15F820B20047FE59 /* Build configuration list for PBXNativeTarget "AlertPreference" */;
+			buildPhases = (
+				3A19B2C815F820B20047FE59 /* Sources */,
+				3A19B2C915F820B20047FE59 /* Frameworks */,
+				3A19B2CA15F820B20047FE59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertPreference;
+			productName = AlertPreference;
+			productReference = 3A19B2CC15F820B20047FE59 /* AlertPreference.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A19B2C315F820B20047FE59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CL;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jiyeon Seo";
+			};
+			buildConfigurationList = 3A19B2C615F820B20047FE59 /* Build configuration list for PBXProject "AlertPreference" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A19B2C115F820B20047FE59;
+			productRefGroup = 3A19B2CD15F820B20047FE59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A19B2CB15F820B20047FE59 /* AlertPreference */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A19B2CA15F820B20047FE59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A19B2DB15F820B20047FE59 /* InfoPlist.strings in Resources */,
+				3A19B2E715F820B20047FE59 /* CLViewController.xib in Resources */,
+				3A19B2FA15F8258D0047FE59 /* CLViewCell.xib in Resources */,
+				3A19B2FD15F826940047FE59 /* img1.jpeg in Resources */,
+				3A19B2FE15F826940047FE59 /* img3.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A19B2C815F820B20047FE59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A19B2DD15F820B20047FE59 /* main.m in Sources */,
+				3A19B2E115F820B20047FE59 /* CLAppDelegate.m in Sources */,
+				3A19B2E415F820B20047FE59 /* CLViewController.m in Sources */,
+				3A19B2F815F825790047FE59 /* CLViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A19B2D915F820B20047FE59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A19B2DA15F820B20047FE59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A19B2E515F820B20047FE59 /* CLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A19B2E615F820B20047FE59 /* en */,
+			);
+			name = CLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A19B2E815F820B20047FE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A19B2E915F820B20047FE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A19B2EB15F820B20047FE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertPreference/AlertPreference-Prefix.pch";
+				INFOPLIST_FILE = "AlertPreference/AlertPreference-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A19B2EC15F820B20047FE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertPreference/AlertPreference-Prefix.pch";
+				INFOPLIST_FILE = "AlertPreference/AlertPreference-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A19B2C615F820B20047FE59 /* Build configuration list for PBXProject "AlertPreference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A19B2E815F820B20047FE59 /* Debug */,
+				3A19B2E915F820B20047FE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A19B2EA15F820B20047FE59 /* Build configuration list for PBXNativeTarget "AlertPreference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A19B2EB15F820B20047FE59 /* Debug */,
+				3A19B2EC15F820B20047FE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A19B2C315F820B20047FE59 /* Project object */;
+}
